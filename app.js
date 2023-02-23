@@ -36,7 +36,7 @@ bot.hears('animals', ctx => {
 
 bot.action('dog', ctx => {
     bot.telegram.sendPhoto(ctx.chat.id, {
-        source: "res/odp2.jpg"
+        source: "res/dog.jpeg"
     })
 })
 
@@ -44,7 +44,7 @@ bot.action('dog', ctx => {
 
 bot.action('cat', ctx => {
     bot.telegram.sendPhoto(ctx.chat.id, {
-        source: "res/odp3.jpg"
+        source: "res/cat.jpeg"
     })
 })
 
