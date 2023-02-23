@@ -5,7 +5,7 @@ const axios = require('axios');
 const bodyParser = require('body-parser');
 const port = 6000;
 const url = 'https://api.telegram.org/bot';
-const apiToken = '6236117988:AAEQKnAENQW9j4dmuF1SvENBGuhHsrZslYQ';
+const apiToken = your token;
 // Configurations
 app.use(bodyParser.json());
 // Endpoints
