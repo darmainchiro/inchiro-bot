@@ -1,6 +1,6 @@
 const {Telegraf} = require('telegraf');
 
-const bot = new Telegraf('6236117988:AAEQKnAENQW9j4dmuF1SvENBGuhHsrZslYQ');
+const bot = new Telegraf(your token);
 
 //method for invoking start command
 
